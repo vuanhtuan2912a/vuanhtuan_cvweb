@@ -1,0 +1,438 @@
+
+html{
+    font-size: 10px;
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ------------------------ Home Screen --------------------------------- */
+main{
+    min-height: 100vh;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+/* --------------------- Home Screen Background ------------------------------ */
+.circle1 {
+    position: absolute;
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    background: linear-gradient(135.42deg, rgba(11, 79, 201, 0.5) 13.84%, rgba(94, 109, 240, 0.5) 13.84%, rgba(155, 218, 190, 0.2) 85.21%, rgba(251, 251, 251, 0.5) 85.21%);
+    top: 5%;
+    left: 10%;
+    opacity: 0.5;
+    z-index:1;
+}
+
+.circle2{
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgba(17, 237, 139, 0.58) 0%, rgba(29, 220, 158, 0.651101) 20.31%, rgba(77, 152, 234, 0.93) 99.99%, rgba(84, 142, 246, 0.26) 100%);
+    opacity: 0.8;   
+}
+
+.circle3{
+    position: absolute;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    background: linear-gradient(300.73deg, rgba(255, 255, 255, 0.372) 14.74%, rgba(167, 196, 247, 0.357188) 48.13%, rgba(167, 196, 247, 0.357188) 60.97%, rgba(121, 164, 242, 0.45) 85.19%);
+    opacity: 0.9;
+    bottom: 1%;
+    left: 40%;
+}
+
+/* --------------------------- Home Glass Screen ------------------------------ */
+.glass{
+    height: 80vh;
+    width: 70vw;
+    background: linear-gradient(270.22deg, rgba(255, 255, 255, 0.3) 30%, rgba(255, 255, 255, 0.3) 30%);
+    border-radius: 2rem;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+}
+/* ------------------------- Home Navbar ---------------------------------- */
+
+.img-icon{
+    margin: 5% 0;
+    height: 3rem ;
+    display: flex;
+    flex-direction: row;
+}
+
+/* ----------------------- Home Main Glass ------------------------- */
+
+
+.glass-main{
+    width: auto;
+    height: auto;
+    display: flex;
+    padding: 0 10rem;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+}
+
+.container-glass{
+    flex: 1;
+    font-size: 3.5rem;
+    color: white;
+    margin: 0 0 0 10%;
+    font-weight:50;
+}
+
+.btn-see-more{
+
+    font-size: 1.5rem;
+    color:white;
+    justify-content: center;
+    width: 15rem;
+    height: 3rem;
+    border: none;
+    border-radius: .7rem;
+    background: linear-gradient(264.15deg, rgba(84, 246, 174, 0.48) 0%, rgba(85, 142, 245, 0.18) 100%);
+
+}
+
+
+.img-home{
+    width: 50rem;
+    height: 50rem;
+    margin: 10% 5% ;
+}
+
+.tittle-home{
+    font-size: 3.5rem;
+
+}
+
+/* -------------- About Screen --------------------------- */
+
+.about-screen{
+    display: flex;
+    min-height: 80rem;
+}
+.img-about-screen{
+    flex: 1;
+    margin: 10rem 8rem ;
+    box-sizing: border-box;
+}
+
+.border-under-img{
+    position: absolute;
+    min-height: 50rem;
+    width: 50rem;
+    border-radius: 2rem;
+    background: linear-gradient(270.22deg, rgba(255, 255, 255, 0.3) 30%, rgba(255, 255, 255, 0.3) 10%);
+    margin: 10rem 0 5rem 16rem;
+    box-sizing: border-box;
+}
+
+.img-about{
+    position: absolute;
+    min-height: 50rem;
+    width: 50rem;
+    border-radius: 2rem;
+    margin: 4rem 0 5rem 22rem;
+    box-sizing: border-box;
+}
+
+/* --------------- Text main About Screen -------------- */
+.text-about-screen{
+    flex: 1;
+    margin: 10rem 10% ;
+
+}
+
+.tittle {
+    color: white;
+    font-size: 5rem;
+    font-weight: 500;
+
+}
+.tittle-underline{
+    position: absolute;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12rem;
+    line-height: 180px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    transform: rotate(90deg);
+    color:  rgba(65, 62, 247, 0.08);
+    margin-top: 25rem;
+    
+}
+
+.tittle-underline.about-tittle-underline{
+    margin-top: 13%;
+}
+
+
+.tittle-underline.skill-tittle-underline{
+    margin-top: 19%;
+    color:rgba(84, 246, 174, 0.16);
+}
+
+.box-see{
+    position:absolute;
+    margin-top: 1.5rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    background: linear-gradient(180deg, rgba(84, 162, 233, 0.3) 0%, rgba(84, 162, 233, 0.3) 100%);
+}
+
+
+/* ------------------ Skill Screen ------------------- */
+
+.skill-screen{
+    position: relative;
+    width: 80vw;
+    height: auto;
+    margin: 0 10%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.skill{
+    width: 40vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    transform: translateX(50%);
+    margin: 9rem 0;
+}
+
+
+
+/* ----------------- skill Adobe XD -------------- */
+
+.skill-xd{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5rem;
+}
+
+.span-skill-xd{
+    width: 80%;
+    height: 2rem;
+    background-color: white;
+    /* animation: xd 3s ;
+    animation-delay: 10s; */
+}
+
+
+/* ----------------- skill  HTML & CSS -------------- */
+
+.skill-html-css{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5rem;
+}
+.skill-bar{
+    width: 100%;
+    height: 2rem;
+    background: linear-gradient(270.22deg, rgba(255, 255, 255, 0.3) 30%, rgba(255, 255, 255, 0.3) 10%);
+}
+
+.span-skill-html-css{
+    width: 75%;
+    height: 2rem;
+    background-color: white;
+    /* animation: html-css 3s ;
+    animation-delay: 10s; */
+}
+
+.name-skill{
+    font-weight: 600;
+    margin: 0;
+    width: 13rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+/* ----------------- skill UX/UI -------------- */
+
+.skill-ux-ui{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5rem;
+}
+
+.span-skill-ux-ui{
+    width: 65%;
+    height: 2rem;
+    background-color: white;
+    /* animation: ux-ui 3s ;
+    animation-delay: 10s; */
+}
+
+/* ----------------- skill Figma -------------- */
+
+.skill-figma{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5rem;
+}
+
+.span-skill-figma{
+    width: 70%;
+    height: 2rem;
+    background-color: white;
+    /* animation: figma 3s ;
+    animation-delay:10s; */
+}
+
+/* ----------------- skill  JavaScript -------------- */
+
+.skill-js{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4rem;
+}
+
+.span-skill-js{
+    width: 50%;
+    height: 2rem;
+    background-color: white;
+    /* animation: js 3s ;
+    animation-delay: 10s; */
+}
+
+
+
+/* ----------------- skill React Native -------------- */
+
+.skill-react{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5rem;
+}
+
+.span-skill-react{
+    width: 40%;
+    height: 2rem;
+    background-color: white;
+    /* animation: react 3s ;
+    animation-delay: 10s; */
+}
+
+
+/* ----------------- Project Screen -------------- */
+
+.project-screen{
+    position: relative;
+    height: auto;
+    width: 80vw;
+    background: none;
+    border-radius: 2rem;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    box-sizing: border-box;
+    margin:0 10%;
+    padding: 5rem 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-project{
+    min-height: 60rem;
+    width: 60rem;
+    margin: 0 2vw;
+
+}
+
+
+/* ----------------- Contact Screen -------------- */
+
+.contact-screen{
+    height: auto;
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    margin: 0 20%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+    
+}
+
+.send-me{
+    margin-left: 10%;
+}
+
+/* -----------------  Form contact -------------- */
+.form-contact{
+    height: 65vh;
+    width: 45%;
+    background: linear-gradient(270.22deg, rgba(255, 255, 255, 0.3) 30%, rgba(255, 255, 255, 0.3) 60%);
+    border-radius: 2rem;
+    display: flex;
+    margin: 5rem 5%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-input{
+    background: linear-gradient(270.22deg, rgba(255, 255, 255, 0.3) 30%, rgba(255, 255, 255, 0.3) 60%);
+    border: none;
+    align-content: center;
+    width: 90%;
+    min-height: 4rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+    color: white;
+    margin-top: 5%;
+}
+::placeholder{
+    color: white;
+    padding-left:10px ;
+}
+.form-more{
+    background: linear-gradient(270.22deg, rgba(255, 255, 255, 0.3) 30%, rgba(255, 255, 255, 0.3) 60%);
+    border: none;
+    width: 90%;
+    height: 70%;
+    border-radius: 1rem;
+    font-size: 2rem;
+    color: white;
+    margin-top: 5%;
+    text-align: start;
+}
+.text-contact{
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 20%;
+    margin: 0 20%;
+}

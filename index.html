@@ -1,0 +1,217 @@
+<div class="all" style="overflow: hidden;">
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="animation.css">
+        <link rel="stylesheet" href="menu.css">
+        <link rel="stylesheet" href="reponsive.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Document</title>
+    </head>
+    <script src="menu.js"></script>
+    <body style="margin: 0;
+    padding: 0; background: linear-gradient(265deg,#54F6AE 0%, #548EF6 100% );">    
+
+
+<div class="menu">
+    <div class="menu-btn" onclick="myFunction()">
+        <div class="menu-btn__burger"></div>
+        <div id="drop-down" class="dropdown-menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skill">Skill</a>
+            <a href="#projects">Project</a>
+            <a href="#contact">Contact</a>
+          </div>
+    </div>
+</div>
+    
+        <main id="home">
+            <!--Home Screen Background -->
+            <span class="circle1"></span>
+            <span class="circle2"></span>
+            <span class="circle3"></span>
+            <!--Home Glass Screen -->
+            <section class="glass">
+                <!-- Home Main Glass -->
+    
+                <div class="glass-main">
+                    <div class="container-glass">
+                        <h1 class="tittle-home">Hi! <br>I am Tuan <br>Front-end Intern</h1>
+                        <button class="btn-see-more">See More
+                        </button>
+                        <div class="img-icon">
+                            <a href="https://www.facebook.com/vu.anhtuan.2912/"><img src="./image-icon/facebook-icon.png"
+                                    style="height: 3.5rem;"></a>
+                            <a href="https://www.instagram.com/anhtuan_2912/"><img src="./image-icon/instagram-icon.png"
+                                    style="height: 3.5rem; margin-left: 2rem;"></a>
+                        </div>
+    
+                    </div>
+                    <img src="./image-icon/img-coding.png" class="img-home">
+                </div>
+            </section>
+        </main>
+    
+      
+    
+        <!-- About Screen -->
+        <section id="about" class="about-screen">
+    
+            <div class="img-about-screen">
+                <div class="border-under-img"></div>
+                <img class="img-about" src="./image-icon/img-about.jpg">
+            </div>
+            <div class="text-about-screen">
+                <h1 class="tittle-underline about-tittle-underline">ABOUT</h1>
+                <!-- /* ---------------Text main About Screen-------------- */ -->
+                <h1 class="tittle">Who I am?</h1>
+                <p style="font-size: 2rem; color: white;">My fullname is Vũ Anh Tuấn. I'm 21 years old. I am originally from
+                    Thai Binh but I’ve lived in Ho Chi Minh city for 12 years now.
+                    Next year I will graduate FPT POLYTECHNIC college. My hobby is design and I want to create my
+                    products which i designed with my ability. So if you want to know more about me let's see my CV!
+                </p>
+    
+                <div style="display: flex; width: 50rem;">
+                    <div class="box-see"></div>
+                    <a class="btn-cv"
+                        style=" font-size:1.3rem; margin-left: 1.5rem; margin-top: 2.5rem; font-weight: bold; color: white; z-index: 1;">
+                        SEE MY CV</a>
+                    <img class="animation-arrow" src="./image-icon/arrow.png"
+                        style="transform:rotate(-90deg); width: 1rem; margin-left: 3rem;">
+                </div>
+    
+    
+            </div>
+        </section>
+    
+        <!-- Skill screen -->
+        <section id="skill" class="skill-screen">
+            <h1 class="tittle-underline skill-tittle-underline">SKILL</h1>
+            <div>
+                <div class="tittle-skill">
+                    <h1 class="tittle" style="display: flex; width: 80vw; flex: 1; justify-content: center;">My Skill
+                    </h1>
+                </div>
+                <div class="skill">
+    
+                    <!-- -----------------skill Adobe XD --------------  -->
+                    <div class="skill-xd">
+                        <p class="name-skill">Adobe XD</p>
+                        <div class="skill-bar">
+                            <div class="span-skill-xd"></div>
+                        </div>
+                    </div>
+    
+                    <!-- ----------------- skill  HTML & CSS--------------  -->
+                    <div class="skill-html-css">
+                        <p class="name-skill">HTML & CSS</p>
+                        <div class="skill-bar">
+                            <div class="span-skill-html-css"></div>
+                        </div>
+                    </div>
+    
+                    <!-- -----------------skill Figma --------------  -->
+                    <div class="skill-figma">
+                        <p class="name-skill">Figma</p>
+                        <div class="skill-bar">
+                            <div class="span-skill-figma"></div>
+                        </div>
+                    </div>
+    
+                    <!-- -----------------skill UX/UI --------------  -->
+                    <div class="skill-ux-ui">
+                        <p class="name-skill">UX/UI Design</p>
+                        <div class="skill-bar">
+                            <div class="span-skill-ux-ui"></div>
+                        </div>
+                    </div>
+    
+    
+                    <!-- -----------------skill  JavaScript-------------- -->
+                    <div class="skill-js">
+                        <p class="name-skill">JavaScript</p>
+                        <div class="skill-bar">
+                            <div class="span-skill-js"></div>
+                        </div>
+                    </div>
+    
+                    <!-- ----------------- skill React Native --------------  -->
+    
+                    <div class="skill-react">
+                        <p class="name-skill">React Native</p>
+                        <div class="skill-bar">
+                            <div class="span-skill-react"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    
+        <!-- Project Screen -->
+        <section>
+            <h1 id="projects" class="tittle" style="display: flex; width: 100vw;justify-content: center;">Projects
+            </h1>
+            <div class="project-screen">
+                <img class="project-arrow" src="./image-icon/arrow-r-l.png" style="float: left; width: 5rem; height: 3rem;">
+                <img class="img-project" src="image-icon/img-project.png">
+                <img class="project-arrow" src="./image-icon/arrow-r-l.png"
+                    style="float: right; transform: rotate(180deg); width: 5rem; height: 3rem;">
+            </div>
+        </section>
+    
+    
+        <!-- Contact Screen -->
+        <section>
+            <h1 id="contact" class="tittle" style="display: flex; width: 100vw;justify-content: center;">
+                Contact
+            </h1>
+            <div class="contact-screen">
+                <!-- Form contact -->
+                <div class="form-contact">
+                    <input type="text" class="form-input" placeholder="Name" maxlength="30">
+                    <input type="email" class="form-input" placeholder="Email" maxlength="70">
+                    <textarea type="text" class="form-more" placeholder="Name" maxlength="500"></textarea>
+                </div>
+                <div class="text-contact">
+                    <p style="font-size: 2rem; color: white; margin: 10%;">SEND ME YOUR MESSAGE <br><br>
+                        Let’s talk about our next project. <br>
+                        I’m sure you aldready have few ideas in mind. <br> Let’s connect and
+                        talk about it. </p>
+                    <div style="display: flex; width: 50rem;" class="send-me">
+                        <div class="box-see"></div>
+                        <p
+                            style=" font-size:1.3rem; margin-left: 1.5rem; margin-top: 2.5rem; font-weight: bold; color: white; z-index: 2;">
+                            SEND ME</p>
+                        <img src="./image-icon/arrow.png" style="transform:rotate(-90deg); width: 1rem; margin-left: 3rem;">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="ft"
+                style="margin: 2rem 5%; padding-left: 1rem;  border-left: 3px solid white; width: 50%; height: auto; font-size: 3rem; color: white;">
+                CONTACT ME
+                <div style="font-size: 1.5rem;">
+                    Phone Number: 0345765905 <br>
+                    Email: vuanhtuan2912a@gmail.com
+                </div>
+            </div>
+            <div class="ft"
+                style="margin: 2rem 5%; padding-left: 1rem;  border-left: 3px solid white; width: 50%; height: auto; font-size: 3rem; color: white;">
+                FOLLOW ME
+                <div> <a style="color: white;font-size: 1.5rem;"
+                        href="www.facebook.com/vu.anhtuan.2912">www.facebook.com/vu.anhtuan.2912</a></div>
+        </footer>
+    
+    </body>
+    
+    </html>
+</div>
+

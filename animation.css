@@ -1,0 +1,58 @@
+a:hover{
+    color: #558EF5;
+    transition: width .3s;
+}
+
+a:hover::after{
+    color: white;
+    transition: width .3s;
+}
+
+.a-tag::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #558EF5;
+    transition: width .3s;
+
+}
+
+.a-tag:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+
+
+@keyframes html-css {
+    0% {width: 0%;  background: white;  }
+    100% {width: 75%;  background: white; }
+}
+
+@keyframes ux-ui {
+    0% {width: 0%;  background: white;  }
+    100% {width: 65%;  background: white; }
+}
+
+@keyframes figma {
+    0% {width: 0%;  background: white;  }
+    100% {width: 70%;  background: white; }
+}
+
+@keyframes xd {
+    0% {width: 0%;  background: white;  }
+    100% {width: 80%;  background: white; }
+}
+
+
+@keyframes js {
+    0% {width: 0%;  background: white;  }
+    100% {width: 50%;  background: white; }
+}
+
+@keyframes react {
+    0% {width: 0%;  background: white;  }
+    100% {width: 40%;  background: white; }
+}
+
+

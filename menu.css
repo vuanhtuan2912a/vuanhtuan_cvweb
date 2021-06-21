@@ -1,0 +1,24 @@
+
+  .dropdown-menu {
+    width: 10rem;
+    margin: 5rem 0 0 5%;
+    display: block;
+    position: fixed;
+    background: linear-gradient(270.22deg, rgba(255, 255, 255, 0.3) 30%, rgba(255, 255, 255, 0.3) 30%);
+    min-width: 5rem;
+    box-shadow: 0px 8px 16px 0px #558EF5;
+    z-index: 2;
+  }
+  
+  .dropdown-menu a {
+    color: white;
+    font-size: 1.5rem;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-menu a:hover {background-color: #558EF5}
+  
+  .show {display:block;}
+
