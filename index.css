@@ -1,4 +1,6 @@
 
+
+
 html{
     font-size: 10px;
 }
@@ -76,6 +78,47 @@ main{
 
 /* ----------------------- Home Main Glass ------------------------- */
 
+/* ------------------------ H1 animation --------------------------------- */
+.tittle-home {
+    position: relative;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(50deg, #fff, #fff, #fff);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 7.5s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+  .animation-title {
+    position: relative;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(50deg, #fff, #fff, #fff);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 5.5s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+/* ------------------------ H1 animation --------------------------------- */
+
 
 .glass-main{
     width: auto;
@@ -105,7 +148,6 @@ main{
     border: none;
     border-radius: .7rem;
     background: linear-gradient(264.15deg, rgba(84, 246, 174, 0.48) 0%, rgba(85, 142, 245, 0.18) 100%);
-
 }
 
 
@@ -115,39 +157,40 @@ main{
     margin: 10% 5% ;
 }
 
-.tittle-home{
-    font-size: 3.5rem;
-
-}
 
 /* -------------- About Screen --------------------------- */
 
 .about-screen{
     display: flex;
     min-height: 80rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    justify-content: center;
 }
 .img-about-screen{
     flex: 1;
-    margin: 10rem 8rem ;
+    margin: 0rem 8rem ;
     box-sizing: border-box;
 }
 
-.border-under-img{
+/* .border-under-img{
     position: absolute;
     min-height: 50rem;
+    max-height: 80rem;
     width: 50rem;
     border-radius: 2rem;
     background: linear-gradient(270.22deg, rgba(255, 255, 255, 0.3) 30%, rgba(255, 255, 255, 0.3) 10%);
     margin: 10rem 0 5rem 16rem;
     box-sizing: border-box;
-}
+} */
 
 .img-about{
     position: absolute;
     min-height: 50rem;
+    max-height: 75rem;
     width: 50rem;
     border-radius: 2rem;
-    margin: 4rem 0 5rem 22rem;
+    margin: 0 0 5rem 22rem;
     box-sizing: border-box;
 }
 
